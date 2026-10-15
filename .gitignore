@@ -1,0 +1,58 @@
+# Backend
+backend/node_modules/
+backend/dist/
+backend/.env
+backend/.env.example
+backend/firebase-service-account.json
+
+# Ignore generated JSONL files
+backend/data/*.jsonl
+
+
+# ==========================================
+# Frontend - Next.js
+# ==========================================
+
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/.env.local.example
+
+# Next.js generated TypeScript file
+frontend/next-env.d.ts
+
+
+# ==========================================
+# Python - Retrieval
+# ==========================================
+
+retrieval/__pycache__/
+retrieval/.pytest_cache/
+retrieval/.mypy_cache/
+
+# Python virtual environments
+retrieval/venv/
+retrieval/.venv/
+retrieval/.venv-1/
+retrieval/env/
+
+# Environment variables
+retrieval/.env
+
+
+# ==========================================
+# General
+# ==========================================
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+firebaseConfig.txt
